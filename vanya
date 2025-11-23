@@ -1,0 +1,7 @@
+import requests
+import pyfiglet
+
+print(f"Поточна версія requests у цьому оточенні: {requests.__version__}")
+
+ascii_art = pyfiglet.figlet_format("VS Code VENV!")
+print(ascii_art)
